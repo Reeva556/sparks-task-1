@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Banking System Website - Reeva</title>
+	<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+		<div class="logo">
+	<header>
+		<img src="https://th.bing.com/th/id/R.8c6393a6b4d9cc83418d53939ad6f6b2?rik=7IQ%2b%2fV%2f7KnO59g&riu=http%3a%2f%2fwww.hustlermoneyblog.com%2fwp-content%2fuploads%2f2016%2f05%2fPNC-Bank-Logo-A.png&ehk=YAkzDnCWzzQBjKWVV98as%2fh0Q%2foXfnzqNghT0GBfRFQ%3d&risl=&pid=ImgRaw&r=0" alt="pnc bank com%2fwp-content%2fuploads%2f2016%2f05%2fPNC-Bank-Logo-A">			
+            <h1><span>PNG</span> BANK</h1>
+
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Get Started</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+        <div class="Bank-section">
+            <div class="left">
+                <h1>Welcome to our Banking System Website</h1>
+                <p>We provide secure and convenient online banking services for our customers. Please click the button below and start sending money to his friends.</p>
+                <button onclick="location.href='home.html'"><a href="home.html" >Get Started</a></button>
+            </div>
+
+            <div class="right">
+                <div class="left-img">
+                    <!-- <img src="Assets/bank.png" alt="bank image"> -->
+                </div>
+            </div>
+        </div>
+		
+	</div>
+    <section id="about">
+		<h2>About Our Bank</h2>
+		<div class="about-content">
+			<div class="about-text">
+				<p>We are a trusted financial institution that has been serving our customers for over 50 years. We offer a wide range of banking services including checking accounts, savings accounts, loans, and more.</p>
+				<p>Our mission is to provide our customers with the highest level of customer service and support. We believe that everyone should have access to the financial tools they need to achieve their goals, which is why we offer competitive rates and fees.</p>
+				<p>At our bank, we prioritize security and privacy. We use the latest technology and security measures to ensure that our customers' information is always safe and secure.</p>
+			</div>
+			<div class="about-image">
+			</div>
+			<img src="https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2020/06/iStock-610239112-960x563.jpg" alt="About Us Image"> 
+			</div>
+	</section>
+
+    <!-- Contact form section 	 -->
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<form action="submit-form.php" method="POST">
+		  <div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+		  </div>
+		  <div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		  </div>
+		  <div class="form-group">
+			<label for="subject">Subject:</label>
+			<input type="text" id="subject" name="subject" required>
+		  </div>
+		  <div class="form-group">
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+		  </div>
+		  <button type="submit">Submit</button>
+		</form>
+	</section>
+
+    <footer>
+		<p>Design & Developed By Reeva<br>&copy; 2023 PNG Bank. All rights reserved.</p>
+	</footer>
+</body>
+</html>
